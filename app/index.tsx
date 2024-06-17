@@ -4,10 +4,12 @@ import "../global.css";
 
 export default function App() {
   return (
-    <View className="flex-1 items-center justify-center bg-black ">
-      <Text className="color-white">Layout Hello</Text>
+    <View className="flex-1 items-center justify-center bg-white ">
+      <Text className="text-3xl font-pblack">Aora!</Text>
       <StatusBar barStyle={"default"} />
-      <Link href="/profile"> Go to profile</Link>
+      <Link style={{ color: "blue" }} href="/profile">
+        Go to profile
+      </Link>
     </View>
   );
 }
